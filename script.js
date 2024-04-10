@@ -97,9 +97,9 @@ function dateManage(dateArg) {
 // function for the dynamic background change  according to weather status
 function changeBg(status) {
     if (status === 'Clouds') {
-        document.body.style.backgroundImage = 'url(img/clouds.jpg)';
+        document.body.style.backgroundImage = 'url(img/cloudy.jpg)';
     } else if (status === 'Rain') {
-        document.body.style.backgroundImage = 'url(img/rainy.jpg)';
+        document.body.style.backgroundImage = 'url(img/rainy.jpeg)';
     } else if (status === 'Clear') {
         document.body.style.backgroundImage = 'url(img/clear.jpg)';
     }
@@ -107,7 +107,7 @@ function changeBg(status) {
         document.body.style.backgroundImage = 'url(img/snow.jpg)';
     }
     else if (status === 'Sunny') {
-        document.body.style.backgroundImage = 'url(img/sunny.jpg)';
+        document.body.style.backgroundImage = 'url(img/sunny.jpeg)';
     } else if (status === 'Thunderstorm') {
         document.body.style.backgroundImage = 'url(img/thunderstrom.jpg)';
     } else if (status === 'Drizzle') {
@@ -117,7 +117,7 @@ function changeBg(status) {
     }
 
     else {
-        document.body.style.backgroundImage = 'url(img/bg.jpg)';
+        document.body.style.backgroundImage = 'url(img/background.jpg)';
     }
 }
 
